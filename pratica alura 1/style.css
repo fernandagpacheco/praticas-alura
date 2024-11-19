@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f6f6f6;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 40px;
+    font-family:"Sour Gummy", sans-serif;
+}
+
+.apresentacao__conteudo__sub {
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;    
+}
+
+.apresentacao__conteudo__final{
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+background-color: #22d4fd;
+}
