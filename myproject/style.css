@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --mandalorian: #181C14;
+    --babyyoda:#E9EED9;
+    --bobafett:#D6C0B3;
+    --bokatan:#ECDFCC;
+    --luke:#fff8f1;
+}
+
+body{
+    background-color: var(--mandalorian);
+    color:var(--bokatan)
+}
+
+.cabecalho{
+    background-color: var(--bobafett);
+    color:var(--mandalorian);
+}
+
+.menu__nav{
+    
+}
+
+.w1{
+    color: var(--bokatan);
+}
+
+.rodape{
+    background-color: var(--bobafett);
+    color:var(--mandalorian);
+}
