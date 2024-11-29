@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,42 @@
     <title>My project</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <nav class="menu__nav">
-            <a href="home.html">Home</a>
-            <a href="aboutme.html">About me</a>
+            <a class="menu__nav__link" href="home.html">Home</a>
+            <a class="menu__nav__link" href="aboutme.html">About me</a>
         </nav>
     </header>
-    
-    <main>
-        <h1 class="w1">
-            Hello World!  
-        </h1>
-    <p>Welcome to my project. </p>
-    <p>My project is all about sharing my experience while learning how to be a <strong>tech</strong> professional.</p>
-    <p>I'm currently learning HTML, CSS and Javascript with Alura. I know that you will notice some mistakes in my code, design,etc... 
-    But please, be patient my friend! I'll get there!</p>
-    <p>Feel free to explore!</p>
 
+    <main class="apresentacao">
+        <section class="apresentacao_intro">
+        <h1 class="t1">
+            Hello World!
+        </h1>
+        <div class="intro">
+            <p class="t2">Welcome to my project! </p>
+            <p class="t3">My project is all about sharing my experience while learning how to be a <strong>tech</strong>
+                professional.</p>
+        </div>
+    </section>
+        <p>I'm currently learning HTML, CSS and Javascript with <a class="alura"
+                href="https://www.alura.com.br/">Alura</a>. I know that you will notice some mistakes in my
+            code, design,etc...
+            But please, be patient my friend! I'll get there!</p>
+        <p>Feel free to explore!</p>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/fernandagpacheco">Linkedin</a>
+            <a href="https://github.com/fernandagpacheco">Github</a>
+        </div>
     </main>
 
     <footer class="rodape">
-        &#169 F.G.P.
+        <strong> &#169 F.G.P.</strong>
         "This is the way."
-        <a href="https://www.linkedin.com/in/fernandagpacheco">Linkedin</a>
-        <a href="https://github.com/fernandagpacheco">Github</a>
     </footer>
-    
+
 </body>
+
 </html>

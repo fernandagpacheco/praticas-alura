@@ -1,37 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-:root{
+:root {
     --mandalorian: #181C14;
-    --babyyoda:#E9EED9;
-    --bobafett:#D6C0B3;
-    --bokatan:#ECDFCC;
-    --luke:#fff8f1;
+    --babyyoda: #E9EED9;
+    --bobafett: #D6C0B3;
+    --bokatan: #ECDFCC;
+    --luke: #fff8f1;
 }
 
-body{
+body {
     background-color: var(--mandalorian);
-    color:var(--bokatan)
-}
-
-.cabecalho{
-    background-color: var(--bobafett);
-    color:var(--mandalorian);
-}
-
-.menu__nav{
-    
-}
-
-.w1{
     color: var(--bokatan);
+    font-family: 'Michroma', serif;
 }
 
-.rodape{
+.cabecalho {
+    padding: 0% 0% 0% 0%;
     background-color: var(--bobafett);
-    color:var(--mandalorian);
+
+}
+
+.menu__nav {
+    color: var(--mandalorian);
+}
+
+.menu__nav__link {
+    text-decoration: none;
+}
+
+.apresentacao{
+    display: flex;
+
+}
+.apresentacao_intro{
+
+}
+.t1 {
+    color: var(--bokatan);
+    font-size: 65px;
+}
+
+div
+.t2 {
+    font-size: 20px;
+}
+
+t3
+
+.alura{ 
+    text-decoration: none;
+}
+div
+
+.rodape {
+    background-color: var(--bobafett);
+    color: var(--mandalorian);
+    padding: 4px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+
 }
