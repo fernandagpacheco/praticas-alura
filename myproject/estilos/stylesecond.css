@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --mandalorian: #181C14;
+    --babyyoda: #54B435;
+    --bobafett: #DE774E;
+    --bokatan: #F4E0AF;
+    --luke: #B0D553;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--mandalorian);
+    color: var(--bokatan);
+    font-family: 'Michroma', serif;
+}
+
+.cabecalho {
+    padding: 2% 0 0 10%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link {
+    color: var(--bobafett);
+    text-decoration: none;
+}
+
+.apresentacao {
+    padding: 0% 0% 0% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 100px;
+}
+
+.apresentacao_section {
+    padding: 5%;
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.apresentacao_titulo {
+    font-size: 24px;
+    color: var(--babyyoda);
+}
+
+.apresentacao_imagem {
+    max-width: 300px;
+    max-height: 300px;
+    align-self: center;
+}
+
+.rodape {
+    font-size: 12px;
+    background-color: var(--bobafett);
+    color: var(--mandalorian);
+    padding: 7px;
+    text-align: center;
+}

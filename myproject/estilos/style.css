@@ -30,7 +30,7 @@ body {
 }
 
 .cabecalho_menu_link{
-    color: var(--bokatan);
+    color: var(--bobafett);
     text-decoration: none;
 }
 
@@ -119,8 +119,9 @@ body {
 }
 .rodape {
     font-size: 12px;
-    background-color: var(--bokatan);
+    background-color: var(--bobafett);
     color: var(--mandalorian);
     padding: 7px;
     text-align: center;
 }
+
