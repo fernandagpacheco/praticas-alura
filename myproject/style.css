@@ -7,10 +7,10 @@
 
 :root {
     --mandalorian: #181C14;
-    --babyyoda: #E9EED9;
-    --bobafett: #D6C0B3;
-    --bokatan: #ECDFCC;
-    --luke: #fff8f1;
+    --babyyoda: #54B435;
+    --bobafett: #DE774E;
+    --bokatan: #F4E0AF;
+    --luke: #B0D553;
 }
 
 body {
@@ -20,44 +20,107 @@ body {
     font-family: 'Michroma', serif;
 }
 
-.cabecalho {
-    padding: 0% 0% 0% 0%;
-
+.cabecalho{
+    padding: 2% 0 0 10%;
 }
 
-
-.menu__nav__link {
-    text-decoration: none;
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
 }
 
-.apresentacao{
-    padding:5% 15%;
-
-}
-
-.t1 {
+.cabecalho_menu_link{
     color: var(--bokatan);
-    font-size: 65px;
-}
-
-.t2 {
-    font-size: 30px;
-}
-
-
-
-.alura{ 
     text-decoration: none;
 }
 
+.apresentacao {
+    padding: 5% 10% 10% 10%;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
 
+.apresentacao_intro {
+    width: 615px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 10px;
+
+}
+
+.apresentacao_titulo {
+    font-size: 55px;
+    color: var(--babyyoda);
+    text-align: center;
+
+}
+
+.apresentacao_subtitulo {
+    font-size: 24px;
+    color: var(--babyyoda);
+    text-align: justify;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.apresentacao__tech{
+    color:var(--luke)
+}
+
+
+.apresentacao_fim {
+    width: 615px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    text-align: justify;
+    gap: 18px;
+
+}
+
+.apresentacao_fim_alura{
+    text-decoration: none;
+    color: var(--bobafett);
+    font-weight: bold;
+}
+
+.apresentacao__links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    font-size: 15px;
+    
+}
+
+.apresentacao__links_button{
+    border: 1.12px;
+    border: solid;
+    border-color: var(--luke);
+    color: var(--bobafett);
+    width: 180px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 16px;
+    padding: 10px;
+
+}
+
+.linkedin{
+    width: 10%;
+}
+.githubb{
+    width: 10%;
+}
 .rodape {
+    font-size: 12px;
     background-color: var(--bokatan);
     color: var(--mandalorian);
-    width: 100%;
-    padding: 4px;
-    font-size: 9px;
-    display: flex;
-    justify-content: center;
-    gap: 5%;
+    padding: 7px;
+    text-align: center;
 }
