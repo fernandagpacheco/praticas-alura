@@ -34,6 +34,11 @@ body {
     text-decoration: none;
 }
 
+.cabecalho_menu_link:hover {
+    color: var(--bokatan) cursor: pointer;
+    transition: color 0.15s, cursor 0.15s;
+}
+
 .apresentacao {
     padding: 0% 0% 0% 5%;
     display: flex;
