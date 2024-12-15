@@ -35,12 +35,13 @@ body {
 }
 
 .cabecalho_menu_link:hover {
-    color: var(--bokatan) cursor: pointer;
+    color: var(--bokatan);
+    cursor: pointer;
     transition: color 0.15s, cursor 0.15s;
 }
 
 .apresentacao {
-    padding: 0% 0% 0% 5%;
+    padding: 0% 5% 5% 5%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -62,8 +63,7 @@ body {
 }
 
 .apresentacao_imagem {
-    max-width: 18.75rem;
-    max-height: 18.75rem;
+    width: 30%;
     align-self: center;
 }
 
@@ -71,6 +71,6 @@ body {
     font-size: 0.75rem;
     background-color: var(--bobafett);
     color: var(--mandalorian);
-    padding: 0.44rem;
+    padding: 0.44rem 0 0.55rem 0;
     text-align: center;
 }

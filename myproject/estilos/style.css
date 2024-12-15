@@ -35,7 +35,8 @@ body {
 }
 
 .cabecalho_menu_link:hover {
-    color: var(--bokatan) cursor: pointer;
+    color: var(--bokatan) ;
+    cursor: pointer;
     transition: color 0.15s, cursor 0.15s;
 }
 
@@ -47,7 +48,7 @@ body {
 }
 
 .apresentacao_intro {
-    width: 38.5rem;
+    width: 50%;
     padding: 2%;
     display: flex;
     flex-direction: column;
@@ -70,18 +71,18 @@ body {
 }
 
 .apresentacao__tech {
-    color: var(--luke)
+    color: var(--luke);
 }
 
 
 .apresentacao_fim {
-    width: 38.5rem;
+    width: 50%;
     padding: 2%;
     display: flex;
     flex-direction: column;
     align-content: space-around;
     text-align: justify;
-    gap: 1.1re;
+    gap: 1.1rem;
 }
 
 .apresentacao_fim_alura {
@@ -91,7 +92,8 @@ body {
 }
 
 .apresentacao_fim_alura:hover {
-    color: var(--babyyoda) cursor:pointer;
+    color: var(--babyyoda);
+    cursor:pointer;
     transition: color 0.15s, cursor 0.15s;
 }
 
@@ -119,7 +121,8 @@ body {
 
 .apresentacao__links_button:hover {
     border-color: var(--babyyoda);
-    color: var(--bokatan) cursor: pointer;
+    color: var(--bokatan);
+    cursor: pointer;
     transition: border-color 0.15s, color 0.15s, cursor 0.15s;
 }
 
@@ -132,9 +135,9 @@ body {
 }
 
 .rodape {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     background-color: var(--bobafett);
     color: var(--mandalorian);
-    padding: 0.4rem;
+    padding: 0.44rem 0 0.55rem 0;
     text-align: center;
 }
