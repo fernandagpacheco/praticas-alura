@@ -26,7 +26,7 @@ body {
 
 .cabecalho_menu {
     display: flex;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .cabecalho_menu_link {
@@ -43,26 +43,26 @@ body {
     padding: 5% 10% 10% 10%;
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 3.7rem;
 }
 
 .apresentacao_intro {
-    width: 615px;
+    width: 38.5rem;
     padding: 2%;
     display: flex;
     flex-direction: column;
     text-align: justify;
-    gap: 10px;
+    gap: 0.6rem;
 }
 
 .apresentacao_titulo {
-    font-size: 55px;
+    font-size: 3.4rem;
     color: var(--babyyoda);
     text-align: center;
 }
 
 .apresentacao_subtitulo {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--babyyoda);
     text-align: justify;
     text-align: center;
@@ -75,13 +75,13 @@ body {
 
 
 .apresentacao_fim {
-    width: 615px;
+    width: 38.5rem;
     padding: 2%;
     display: flex;
     flex-direction: column;
     align-content: space-around;
     text-align: justify;
-    gap: 18px;
+    gap: 1.1re;
 }
 
 .apresentacao_fim_alura {
@@ -99,22 +99,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 25px;
-    font-size: 15px;
+    gap: 1.6rem;
+    font-size: 0.9rem;
 
 }
 
 .apresentacao__links_button {
-    border: 1.12px;
+    border: 0.05rem;
     border: solid;
     border-color: var(--luke);
     color: var(--bobafett);
-    width: 180px;
+    width: 11.2rem;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    border-radius: 16px;
-    padding: 10px;
+    border-radius: 1rem;
+    padding: 0.6rem;
 }
 
 .apresentacao__links_button:hover {
@@ -132,9 +132,9 @@ body {
 }
 
 .rodape {
-    font-size: 12px;
+    font-size: 0.7rem;
     background-color: var(--bobafett);
     color: var(--mandalorian);
-    padding: 7px;
+    padding: 0.4rem;
     text-align: center;
 }
