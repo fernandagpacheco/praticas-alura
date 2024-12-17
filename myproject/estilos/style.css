@@ -35,7 +35,7 @@ body {
 }
 
 .cabecalho_menu_link:hover {
-    color: var(--bokatan) ;
+    color: var(--bokatan);
     cursor: pointer;
     transition: color 0.15s, cursor 0.15s;
 }
@@ -44,7 +44,6 @@ body {
     padding: 5% 10% 10% 10%;
     display: flex;
     align-items: center;
-    gap: 3.7rem;
 }
 
 .apresentacao_intro {
@@ -52,6 +51,7 @@ body {
     padding: 2%;
     display: flex;
     flex-direction: column;
+    align-content: space-around;
     text-align: justify;
     gap: 0.6rem;
 }
@@ -93,7 +93,7 @@ body {
 
 .apresentacao_fim_alura:hover {
     color: var(--babyyoda);
-    cursor:pointer;
+    cursor: pointer;
     transition: color 0.15s, cursor 0.15s;
 }
 
@@ -140,4 +140,28 @@ body {
     color: var(--mandalorian);
     padding: 0.44rem 0 0.55rem 0;
     text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 5%;
+    }
+
+    .cabecalho_menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        margin: 0;
+        padding: 10% 5%;
+        flex-direction: column;
+    }
+
+    .apresentacao_intro {
+        width: auto;
+    }
+    .apresentacao_fim{
+        width: auto;
+    }
+
 }
